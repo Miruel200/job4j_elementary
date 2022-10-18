@@ -14,7 +14,7 @@ public class Var {
         System.out.println(koe);
         double distance = 384400;
         System.out.println(distance);
-        boolean  permits = true;`
+        boolean  permits = true;
         System.out.println(permits);
         byte size = 77;
         System.out.println(size);
