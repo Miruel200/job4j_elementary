@@ -2,21 +2,21 @@ package ru.job4j.calculate;
 
 public class Var {
     public static void main(String[] args) {
-        byte  age = 18;
+        byte  age = 26;
         System.out.println(age);
-        char gender =  'W';
+        char gender = 'M';
         System.out.println(gender);
-        float growth = 188.5F;
+        float growth = 182.5F;
         System.out.println(growth);
-        short amount = 23032;
-        System.out.println(amount)   ;
-        double koe = 0.001529d;
+        short amount = 22032;
+        System.out.println(amount);
+        double koe = 1.321E+21d;
         System.out.println(koe);
         double distance = 384400d;
         System.out.println(distance);
-        boolean  permits = true;
+        boolean  permits = false;
         System.out.println(permits);
-        byte size = 77;
+        byte size = 80;
         System.out.println(size);
     }
 }
