@@ -10,9 +10,9 @@ public class Variables {
         System.out.println(growth);
        short amount = 22032;
         System.out.println(amount);
-        float koe = 0.001429f;
+        double koe = 1.321E+21d;
         System.out.println(koe);
-        int distance = 384400;
+        double distance = 384400d;
         System.out.println(distance);
         boolean  permits = false;
         System.out.println(permits);
