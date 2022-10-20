@@ -9,7 +9,7 @@ public class Var {
         float growth = 188.5F;
         System.out.println(growth);
         short amount = 23032;
-        System.out.println(amount);
+        System.out.println(amount)   ;
         double koe = 0.001529d;
         System.out.println(koe);
         double distance = 384400d;
