@@ -16,7 +16,7 @@ public class Variables {
         System.out.println(distance);
         boolean  permits = false;
         System.out.println(permits);
-        byte size = 80;
+        long size = 80L; //Можно конкретнее узнать куда применить тип лонг ???
         System.out.println(size);
     }
 }
