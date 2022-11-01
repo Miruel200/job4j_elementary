@@ -9,5 +9,10 @@ public class Greeting {
         idea = idea + " " +  year;
         System.out.println(idea);
 
+        int a = 10;
+        int b = 15;
+        a += b;
+        System.out.println(a);
+
         }
 }
