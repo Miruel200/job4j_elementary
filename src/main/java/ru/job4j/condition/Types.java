@@ -8,7 +8,7 @@ public class Types {
          float f = 12358.7f;
          int v  = 45981;
          short rsl = (short) (f + v);
-         System.out.println("Данные в порядке " + rsl);
+         System.out.println("Произошла потеря данных " + rsl);
 
          char c = 45000;
          float t = c;
