@@ -19,9 +19,14 @@ package ru.job4j.converter;
             float expected = 2.3333333f;
             float out = Converter.rubleToDollar(in);
             boolean passed = expected == out;
-            System.out.println("140 rubles are 2.33 Test result: " + passed);
             System.out.println("140 rubles are " + euro + " euro.");
             System.out.println("140 rubles are " + dollar + " dollar.");
+            System.out.println("140 rubles are 2.33 Test result: " + passed);
+            in = 140;
+            expected = 2;
+            out = Converter.rubleToEuro(in);
+            passed = expected == out;
+            System.out.println("140 rubles are 2 Test result: " + passed);
 
         }
     }
