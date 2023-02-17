@@ -14,14 +14,14 @@ package ru.job4j.converter;
 
         public static void main(String[] args) {
             float euro = Converter.rubleToEuro(140);
-            float dollar = Converter.rubleToDollar(140);
-            float in = 140;
-            float expected = 2.3333333f;
+            float dollar = Converter.rubleToDollar(120);
+            float in = 120;
+            int expected = 2;
             float out = Converter.rubleToDollar(in);
             boolean passed = expected == out;
             System.out.println("140 rubles are " + euro + " euro.");
-            System.out.println("140 rubles are " + dollar + " dollar.");
-            System.out.println("140 rubles are 2.33 Test result: " + passed);
+            System.out.println("120 rubles are " + dollar + " dollar.");
+            System.out.println("120 rubles are 2 Test result: " + passed);
             in = 140;
             expected = 2;
             out = Converter.rubleToEuro(in);
