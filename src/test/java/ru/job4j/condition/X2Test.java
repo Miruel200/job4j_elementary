@@ -15,7 +15,7 @@ public class X2Test {
         int x = 1;
         int expeted = 3;
         int rsl = X2.calc(a, b, c, x);
-        Assert.assertEquals(expeted,rsl);
+        Assert.assertEquals(expeted, rsl);
 
     }
 }
