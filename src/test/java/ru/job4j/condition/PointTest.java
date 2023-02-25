@@ -19,7 +19,7 @@ public class PointTest {
     }
 
     @Test
-    public void when00to20then6() {
+    public void when52to68then6dot08() {
         double expeted = 6.08;
         int x1 = 5;
         int y1 = 2;
@@ -30,7 +30,7 @@ public class PointTest {
     }
 
     @Test
-    public void when00to20then8() {
+    public void when96to84then8dot23() {
         double expeted = 2.23;
         int x1 = 9;
         int y1 = 6;
