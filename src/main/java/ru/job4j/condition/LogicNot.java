@@ -21,7 +21,7 @@ public class LogicNot {
         return !isEven(num) && isPositive(num);
     }
 
-    public static boolean evenOrNotPositive(int num) {
+    public static boolean evenOrNotPositivу(int num) {
         return isEven(num) || notPositive(num);
     }
 }
