@@ -2,13 +2,11 @@ package ru.job4j.condition;
 
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class ThreeMaxTest {
     @Test
-    public void firstMax() {
+    void firstMax() {
         int first = 10;
         int second = 5;
         int third = 1;
@@ -18,7 +16,7 @@ public class ThreeMaxTest {
     }
 
     @Test
-    public void secondMax() {
+    void secondMax() {
         int first = 10;
         int second = 50;
         int third = 1;
@@ -28,7 +26,7 @@ public class ThreeMaxTest {
     }
 
     @Test
-    public void thirdMax() {
+    void thirdMax() {
         int first = 1;
         int second = 5;
         int third = 100;
@@ -38,7 +36,7 @@ public class ThreeMaxTest {
     }
 
     @Test
-    public void allEq() {
+    void allEq() {
         int first = 1;
         int second = 1;
         int third = 1;
@@ -48,7 +46,7 @@ public class ThreeMaxTest {
     }
 
     @Test
-    public void firstEqSecond() {
+    void firstEqSecond() {
         int first = 10;
         int second = 10;
         int third = 1;
@@ -58,7 +56,7 @@ public class ThreeMaxTest {
     }
 
     @Test
-    public void firstEqThird() {
+    void firstEqThird() {
         int first = 100;
         int second = 1;
         int third = 100;
@@ -68,7 +66,7 @@ public class ThreeMaxTest {
     }
 
     @Test
-    public void secondEqThird() {
+    void secondEqThird() {
         int first = 1;
         int second = 100;
         int third = 100;
