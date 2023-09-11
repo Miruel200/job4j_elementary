@@ -1,4 +1,5 @@
 package ru.job4j.condition;
+
 public class SwitcWeek {
     public static String nameOfDay(int day) {
         String name;
@@ -24,10 +25,9 @@ public class SwitcWeek {
             case 7:
                 name = "Воскресенье";
                 break;
-                default:
-                    name = "Нет такого дня";
+            default:
+                name = "Нет такого дня";
         }
         return name;
     }
 }
-gjhg
