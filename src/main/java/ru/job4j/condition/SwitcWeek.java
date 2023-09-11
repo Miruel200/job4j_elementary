@@ -30,4 +30,8 @@ public class SwitcWeek {
         }
         return name;
     }
+
+    public static void main(String[] args) {
+        System.out.println(nameOfDay(4));
+    }
 }
