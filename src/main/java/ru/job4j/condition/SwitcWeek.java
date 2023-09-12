@@ -8,7 +8,7 @@ public class SwitcWeek {
                 name = "Понедельник";
                 break;
             case 2:
-                name = "Вторник";
+                name = "Вторникк";
                 break;
             case 3:
                 name = "Среда";
